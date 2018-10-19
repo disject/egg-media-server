@@ -1,6 +1,6 @@
 {
   "name": "egg-media-server",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A Node.js implementation of RTMP/HTTP-FLV/WS-FLV/HLS/DASH/MP4 Media Server base on Node-Media-Server",
   "eggPlugin": {
     "name": "mediaServer"
@@ -10,9 +10,7 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {
-    "node-media-server": "^1.4.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
@@ -37,21 +35,21 @@
     "autod": "autod"
   },
   "files": [
-    "app",
     "config",
-    "app.js"
+    "app.js",
+    "lib"
   ],
   "ci": {
     "version": "8, 9"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-media-server.git"
+    "url": "git+https://github.com/disject/egg-media-server.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/disject/egg-media-server"
   },
-  "homepage": "https://github.com/eggjs/egg-media-server#readme",
+  "homepage": "https://github.com/disject/egg-media-server#readme",
   "author": "sansroman",
   "license": "MIT"
 }
